@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
+.menu-main {
+  list-style: none;
+  padding: 0 30px;
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  background: white;
+  margin-top:30px ;
+}
+
+body{
+  overflow: hidden;
+  margin: 0;
+}
+
+.menu-main1:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  left: 0;
+  bottom: -20px;
+  background-size: 20px 20px;
+}
+.menu-main1 li {
+  display: inline-block;
+}
+
+.menu-main1 a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 15px;
+  padding: 100px 30px;
+  font-size: 25px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #777777;
+  transition: .3s linear;
+  position: relative;
+}
+.menu-main1 a:before,
+.menu-main1 a:after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 3px);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #F58262;
+  opacity: 0;
+  transition: .5s ease-in-out;
+}
+.menu-main1 a:before {left: 5px;}
+.menu-main1 a:after {right: 5px;}
+.menu-main1 a.current:before,
+.menu-main1 a.current:after,
+.menu-main1 a:hover:before, 
+.menu-main1 a:hover:after {opacity: 1;}
+.menu-main1 a.current,
+.menu-main1 a:hover {color: #F58262;}
+@media(max-width:680px) {
+  .menu-main li {display: block;}
+}
+
+.p1 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 240px;
+    margin-left: 245px;
+}
+
+
+
+.menu-main1:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  left: 0;
+  bottom: -20px;
+
+}
+.menu-main1 li {display: inline-block;}
+.menu-main1 a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 15px;
+  padding: 10px 30px;
+  font-size: 25px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #777777;
+  transition: .3s linear;
+  position: relative;
+
+}
+.menu-main1 a:before,
+.menu-main1 a:after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 3px);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #F58262;
+  opacity: 0;
+  transition: .5s ease-in-out;
+}
+.menu-main1 a:before {left: 5px;}
+.menu-main1 a:after {right: 5px;}
+.menu-main1 a.current:before,
+.menu-main1 a.current:after,
+.menu-main1 a:hover:before, 
+.menu-main1 a:hover:after {opacity: 1;}
+.menu-main1 a.current,
+.menu-main1 a:hover {color: #F58262;}
+@media(max-width:680px) {
+  .menu-main li {display: block;}
+}
+
+
+
+.menu-main:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  left: 0;
+  bottom: -20px;
+  background-size: 20px 20px;
+
+}
+.menu-main li {display: inline-block;}
+.menu-main a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 15px;
+  padding: 10px 30px;
+  font-size: 25px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #777777;
+  transition: .3s linear;
+  position: relative;
+}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 3px);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #F58262;
+  opacity: 0;
+  transition: .5s ease-in-out;
+}
+.menu-main a:before {left: 5px;}
+.menu-main a:after {right: 5px;}
+.menu-main a.current:before,
+.menu-main a.current:after,
+.menu-main a:hover:before, 
+.menu-main a:hover:after {opacity: 1;}
+.menu-main a.current,
+.menu-main a:hover {color: #F58262;}
+@media(max-width:680px) {
+  .menu-main li {display: block;}
+}
+.registration{
+
+  margin-left: 150px;
+}
+
+.leftmenu{
+  height: 62.2%;
+  width: 242px;
+  position: absolute;
+  left: 0;
+  top: 150px;
+  background-color: lightblue;
+  border-radius: 5px;
+  opacity: 50%;
+}
+
+.lefttext{
+    color: black;
+}
+
+main{
+    background-color:cadetblue;
+    padding: 0 140px;
+    margin-top: 70px;
+    width: 77.90%;
+    height: 655px;
+    margin-left: 242px;
+    display: flex;
+
+}
+
+p{
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    float: left;
+}
+
+.imgdiv{
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.img{
+    width: 250px;
+    height: 175px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+.img2{
+  width: 250px;
+  height: 175px;
+  border-radius: 20px;
+  margin-left: 150px;
+  float: right;
+}
+
+.img3{
+  width: 250px;
+  height: 175px;
+  border-radius: 20px;
+  margin-left: 150px;
+  float: right;
+}
+
+.footer1{
+   left:0px;
+   bottom:0px;
+   height:182px;
+   width:100%;
+   color: white;
+   background-color: black;
+
+}
+
+.maintext{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 175px;
+}
+
+.form{
+  margin-top: 145px;
+  width: 320px;
+  height: 500px;
+  padding: 62px;
+  margin: 50px auto;
+  background-color: rgb(13, 13, 13);
+  color: antiquewhite;
+  text-align: center;
+  border-radius: 20px;
+  line-height: 40px;
+}
+
+.error {
+  background-color: rgb(252, 243, 243);
+  border: 1px inset rgb(243, 7, 7);
+  margin: 10px;
+  display: block;
+  height: 45px;
+  border-radius: 10px;
+  width: 60%;
+  margin-left: 400px;
+  color:black;
+
+
+}
+
+.inputp {
+  height: 100px;
+  width: 300px;
+
+}
+
+.lefttext{
+  margin-left: -30px;
+}
+
+.errortext{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+div.inside5 {
+    margin-left: 800px;
+    max-width: 320px;
+    height: 553px;
+    color: white;
+    text-align: center;
+}
+
+div.inside3 {
+  margin-top: 190px;
+
+}
+
+.title{
+  color: black;
+  margin-top: 170px;
+
+}
+
+.text{
+  color: black;
+
+}
+
+.center{
+  margin-right: 50px;
+
+
+}
+
+.center2{
+  margin-right: 60px;
+  
+}
